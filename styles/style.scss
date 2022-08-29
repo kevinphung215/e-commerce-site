@@ -763,6 +763,98 @@ footer {
     }
 }
 
+/* Cart Page Section */
+#cart {
+    overflow-x: auto;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        white-space: wrap;
+        thead {
+            border: 1px solid #e2e9e1;
+            border-left: none;
+            border-right: none;
+            td {
+                font-size: 13px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding: 18px 0;
+            }
+        }
+        tbody {
+            font-size: 15px;
+            tr {
+                td {
+                    padding-top: 50px;
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+        td {
+            text-align: center;
+            input {
+            width: 60px;
+            padding: 10px 5px 10px 15px;
+            }
+        }
+    }
+}
+
+#cartAdd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+    h3 {
+        padding-bottom: 15px;
+    }
+    input {
+        padding: 10px 20px;
+        outline: none;
+        width: 60%;
+        margin-right: 10px;
+        border: 1px solid #e2e9e1;
+    }
+    button {
+        background-color: var(--hoverColor);
+        color: #fff;
+        padding: 12px 20px;
+    }
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+    h3 {
+        padding: 15px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+        td {
+            width: 50%;
+            border: 1px solid #e2e9e1;
+            padding: 10px;
+            font-size: 13px;
+        }
+    }
+    button {
+        background-color: var(--hoverColor);
+        color: #fff;
+    }
+}
+
 
 
 /*Media Query Home Page Start */
@@ -1033,5 +1125,22 @@ footer {
             margin-bottom: 30px;
         }
     }
+
+    /* Cart Page */
+    #cartAdd {
+        flex-direction: column;
+        #coupon {
+            width: 100%;
+            h3 {
+                text-align: center;
+            }
+        }
+        #subtotal {
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+
 }
 /*Media Query Home Page End*/
