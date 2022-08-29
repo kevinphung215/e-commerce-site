@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css" integrity="sha512-9nqhm3FWfB00id4NJpxK/wV1g9P2QfSsEPhSSpT+6qrESP6mpYbTfpC+Jvwe2XY27K5mLwwrqYuzqMGK5yC9/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
                     <a href="shop.html">Shop</a>
                 </li>
                 <li>
-                    <a class="active" href="blog.html">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li>
                     <a href="about.html">About</a>
@@ -34,7 +34,7 @@
                     <a href="contact.html">Contact</a>
                 </li>
                 <li id="largeCart">
-                    <a href="cart.html">
+                    <a class="active" href="cart.html">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                 </li>
@@ -51,79 +51,31 @@
         </div>
     </header>
 
-    <section id="pageHeader" class="blogHeader">
-        <h2>#readmore</h2>
-        <p>Read all case studies about our products!</p>
+    <section id="pageHeader" class="contactHeader">
+        <h2>#let's_talk</h2>
+        <p>Leave a Message. We love to head from you!</p>
     </section>
 
-    <section id="blog">
-        <div class="blogBox">
-            <div class="blogImage">
-                <img src=img/blog/b1.jpg" alt="">
-            </div>
-            <div class="blogDetails">
-                <h1>01/13</h1>
-                <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis, fugit nesciunt consequuntur id ea quam provident illo architecto officiis ab? Obcaecati pariatur minus voluptatibus fuga, quae amet quod.</p>
-                <a href="#">CONTINUE READING</a>
-            </div>
-        </div>
-        <div class="blogBox">
-            <div class="blogImage">
-                <img src=img/blog/b2.jpg" alt="">
-            </div>
-            <div class="blogDetails">
-                <h1>01/15</h1>
-                <h4>Matching your skin tone?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis, fugit nesciunt consequuntur id ea quam provident illo architecto officiis ab? Obcaecati pariatur minus voluptatibus fuga, quae amet quod.</p>
-                <a href="#">CONTINUE READING</a>
-            </div>
-        </div>
-        <div class="blogBox">
-            <div class="blogImage">
-                <img src=img/blog/b3.jpg" alt="">
-            </div>
-            <div class="blogDetails">
-                <h1>01/17</h1>
-                <h4>The way stores are layout</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis, fugit nesciunt consequuntur id ea quam provident illo architecto officiis ab? Obcaecati pariatur minus voluptatibus fuga, quae amet quod.</p>
-                <a href="#">CONTINUE READING</a>
-            </div>
-        </div>
-        <div class="blogBox">
-            <div class="blogImage">
-                <img src=img/blog/b4.jpg" alt="">
-            </div>
-            <div class="blogDetails">
-                <h1>01/19</h1>
-                <h4>Matching with your bestie</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis, fugit nesciunt consequuntur id ea quam provident illo architecto officiis ab? Obcaecati pariatur minus voluptatibus fuga, quae amet quod.</p>
-                <a href="#">CONTINUE READING</a>
-            </div>
-        </div>
+    <section id="cart" class="sectionPadding">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+        </table>
     </section>
 
-    <section id="pagination" class="sectionPadding">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
-    </section>
 
-    <section id="newsletter" class="sectionPadding sectionMargin">
-        <div class="newsText">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers</span>
-            </p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign Up</button>
-        </div>
-    </section>
 
-    <footer class="sectionPadding ">
+    <footer class="sectionPadding">
         <div class="col">
-            <img class="logo" src=img/logo.png" alt="logo">
+            <img class="logo" src="img/logo.png" alt="logo">
             <h4>Contact</h4>
             <p><strong>Address:</strong> 123 Fake St, City State 12345</p>
             <p><strong>Phone:</strong> 123-456-7890</p>
@@ -164,11 +116,11 @@
             <h4>Install App</h4>
             <p>From App Store or Google Play</p>
             <div class="row">
-                <img src=img/pay/app.jpg" alt="app store">
-                <img src=img/pay/play.jpg" alt="google play">
+                <img src="img/pay/app.jpg" alt="app store">
+                <img src="img/pay/play.jpg" alt="google play">
             </div>
             <p>Secured Payment Gateways</p>
-            <img src=img/pay/pay.png" alt="">
+            <img src="img/pay/pay.png" alt="">
         </div>
 
         <div class="copyright">
